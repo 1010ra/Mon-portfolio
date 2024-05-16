@@ -9,29 +9,29 @@ body{
 
 }
 
+#navbarNavDropdown{
+   margin-left: 40%;
+
+}
+.navbar h1{
+    color: white;
+
+}
+
+#navbarNavDropdown ul li a{
+    font-size: 1.5rem;
+    color: white;
+
+}
 
 .navbarScroll.navbarScroll{
     background-color: rgb(196, 102, 188);
     justify-content: end;
     height: 10%;
 }
-header {
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    width: 100%;
-    font-size: 1.5rem;
-}
 
 
-header h1{
-   font-size: 3rem;
-   margin-top: -0%;
-   margin-right: 45%;
-    
-}
+
 
 nav ul{
     list-style-type: none;
@@ -44,10 +44,7 @@ display: inline;
 margin-right: 15px;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
+
 
 
 .bgimage{
@@ -180,8 +177,9 @@ h2{
 }
 
 .divTrve{
+    margin-top: 5%;
     margin-left: 15%;
-    font-size: 3rem !important;
+    font-size: 2.5rem !important;
     color: #412828;
 }
 .container h4{
