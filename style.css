@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+   font-family: Arial, sans-serif;
+
+}
+
+
+.navbarScroll.navbarScroll{
+    background-color: rgb(196, 102, 188);
+    justify-content: end;
+    height: 10%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+
+header h1{
+   font-size: 3rem;
+   margin-top: -0%;
+   margin-right: 45%;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+ 
+
+}
+nav ul li{
+display: inline;
+margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.bgimage{
+    height: 100vh;
+    background: url('images/fond-violet-fond-violet-lignes-points_739292-10081.jpg');
+    background-size: cover;
+    position: relative;
+}  
+
+.hero_title{
+    font-size: 5rem;
+}
+
+.hero_desc {
+    font-size: 3rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.imageAboutPage{
+    width: 100%;
+    
+   
+
+}
+h2{
+    color: #885b5b;
+    font-size: 5rem;
+}
+
+
+#about{
+    margin-top: 5%;
+}
+#about  p{
+       color: #412828;
+       font-size: 2.5rem;
+       margin-left: 20px;
+      
+
+   }
+   #about ul li{
+    color: #412828;
+    font-size: 1rem;
+   }
+  
+   .paragraph{
+    font-size: 3rem;
+   }
+
+
+
+ 
+
+
+
+
+#services{
+    /*background: linear-gradient(to left,#b286b8,#debce2);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:4%;
+   
+}
+.groupImages{
+    display: flex;
+    justify-content: center;
+    gap: 25%;
+    margin-top: 10%;
+    margin-left: 10%;
+    
+}
+#services .container img {
+    filter: saturate(0%);
+    width: 20%;
+    border: 4px solid rgb(53, 16, 16);
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+
+#services .container img:hover {
+    filter: saturate(100%);
+    width: 50vh;
+}
+
+#services .container .row h3{
+    font-size: 3rem;
+    color: #412828; 
+}
+#services h3 {
+    color: #412828;
+    font-size: 1.5rem;
+    margin-top: 5%;
+
+    
+}
+
+.paragph{
+    color: #412828; 
+    font-size: 1rem;
+    text-align: center;
+}
+
+.paragraf{
+    font-size: 0.5rem;
+}
+
+
+.textPortfolio h2{
+    margin-bottom: 2%;
+    margin-left: 35%;
+    color: #885b5b;
+    font-size: 4rem;
+}
+
+
+#portfolio{
+    /*background: linear-gradient(to bottom,#c885ca,#b6b7c0);*/
+    margin-top: 5%;
+  
+}
+
+.divTrve{
+    margin-left: 15%;
+    font-size: 3rem !important;
+    color: #412828;
+}
+.container h4{
+    font-size: 2.5rem;
+    color: #412828;
+}
+.container .grandDiv p{
+    font-size: 1.5rem;
+    color: #412828; 
+}
+   .paragraProjet{
+    font-size: 2rem !important;
+   }
+.project{
+    display: inline-block;
+    background-color: rgb(196, 102, 188);
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 20% !important;
+    padding: auto;
+   
+}
+.project:hover{
+    background-color: rgb(114, 87, 150);
+    cursor: pointer;
+    color: white;
+}
+
+#contact{
+    margin-top: 13%;
+}
+#contact h1{
+    color: #412828;
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+
+.btn{
+    background-color: rgb(196, 102, 188); 
+    border-radius: 10px;
+    padding: 15px 10px;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(114, 87, 150);
+    cursor: pointer;
+    color: white;
+}
+   
+
+#footer{
+    background-color: rgb(196, 102, 188);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+
+}
+
+.social-icons{
+    font-size: 36px;
+    cursor: pointer;
+    gap: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover,.fa-threads:hover{
+    color: #675aaf;
+
+}
+.fab{
+    color:whitesmoke;
+    
+}
