@@ -1,26 +1,315 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accéder A mon portfolio</title>
-    <link rel="style" href="styliste.css">
+    <title>Mon Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap-icons-1.11.3 (1)/bootstrap-icons-1.11.3/bootstrap-icons.svg">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-    <section class="bgimage">
-        <header>
-       
-            <strong>Fabuleux Entreprise</strong><h1> </h1>
-            
-           <a href="acceder.html" class="btnAccéder">Cliquer  pour voir</a>
-           <div>
-               <input type="checkbox" name="checkbox" class="box" id="check"> <label for="check" class="ecriture">Je ne suis pas un robot</label>
-           </div>
-   
-       </header>   
+<body>
+    <section class="bgimage" id="home">
+        <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+            <div class="container-fluid">
+                <h1>Fabuleux-Entreprise</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 hero-text">
+                    <h3 class="hero_title"> Hi, it's me Tech-Girl</h3>
+                    <p class="hero_desc"> I am a professional développeur Web </p>
+                </div>
+            </div>
+        </div>
     </section>
-   
-    
+
+    <section id="about">
+        <div class="container text-center">
+            <h2>À propos</h2>
+            <p>Bienvenue chez Fabuleux-Entreprise, votre expert en solutions numériques. Depuis notre création, nous nous sommes engagés à fournir des services de haute qualité en développement web, design UX/UI, développement d'applications mobiles, e-commerce, et marketing digital.</p>
+            <p>Notre équipe est composée de professionnels passionnés et créatifs qui travaillent ensemble pour transformer vos idées en réalité. Nous croyons en l'innovation, l'excellence et la satisfaction du client, et nous nous efforçons de dépasser vos attentes à chaque projet.</p>
+            <p>Chez nous, nous valorisons la collaboration et la transparence. Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins spécifiques et développer des solutions personnalisées qui répondent à vos objectifs. Notre mission est de vous aider à réussir dans le monde numérique en constante évolution.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container text-center">
+            <h2>Services</h2>
+            <p>Fabuleux-Entreprise, votre partenaire pour le développement Web et le design. Nous sommes une équipe passionnée par la création de solutions numériques innovantes pour nos clients.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/602-6024127_code-icon-png-txt-ico-transparent-png-removebg-preview.png" class="card-img-top" alt="Développement Web">
+                        <div class="card-body">
+                            <h3>Développement Web</h3>
+                            <p>Transformez vos idées en sites web performants et sécurisés. Nous créons des sites sur mesure qui répondent à vos besoins spécifiques, qu'il s'agisse de sites vitrines, de blogs ou de boutiques en ligne. Avec des technologies modernes et des pratiques de développement avancées, nous assurons une présence en ligne solide et fiable pour votre entreprise.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/modern-abstract-background-design-with-colorful-liquid-shapes-fluid-background-design-for-landing-page-theme-brochure-banner-cover-print-flyer-book-card-or-advertising-vector-removebg-preview.png" class="card-img-top" alt="Design UX/UI">
+                        <div class="card-body">
+                            <h3>Design UX/UI</h3>
+                            <p>Offrez à vos utilisateurs une expérience exceptionnelle avec des interfaces intuitives et esthétiques. Nous concevons des designs qui ne sont pas seulement beaux, mais aussi fonctionnels et faciles à utiliser. Nos designs UX/UI sont créés pour engager vos utilisateurs et leur interaction avec votre site ou application.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/user-interface-development-isometric-concept-with-young-woman-creating-custom-design-mobile-application-vector-illustration_1284-72341.jpg" class="card-img-top" alt="Application Mobile">
+                        <div class="card-body">
+                            <h3>Application Mobile</h3>
+                            <p>Emmenez votre entreprise partout avec des applications mobiles innovantes. Nous développons des applications pour iOS et Android qui sont non seulement performantes, mais aussi intuitives et user-friendly. Que ce soit pour améliorer vos opérations internes ou offrir de nouveaux services à vos clients, nous créons des applications mobiles sur mesure qui répondent à vos besoins spécifiques.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container text-center">
+            <h2>Portfolio</h2>
+            <p>Bienvenue dans notre portfolio, où vous pourrez découvrir une sélection de nos projets réalisés avec soin en utilisant les technologies suivantes : HTML, CSS, JavaScript et Bootstrap.</p>
+            <p>Explorez nos projets et découvrez comment nous pouvons apporter des solutions créatives et efficaces à vos besoins numériques.</p>
+
+    <section class="mt-5">
+    <div class="container text-center">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+                <div class="card project-card border-0 rounded-3 shadow">
+                    <img src="images/agooo.PNG" class="card-img-top" alt="Agogo">
+                    <div class="card-body">
+                        <h5 class="card-title">Agogo</h5>
+                        <p class="card-text">Découvrez notre projet Agogo, une application web dynamique construite avec HTML et CSS. Parfaite pour les amateurs de musique !</p>
+                        <button class="btn ">Voir le projet</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card project-card border-0 rounded-3 shadow">
+                    <img src="images/clickboard.jpg" class="card-img-top" alt="clickboard">
+                    <div class="card-body">
+                        <h5 class="card-title">ClickBoard</h5>
+                        <p class="card-text">ClickBoard est conçu pour faciliter vos tâches de gestion 
+                            avec une interface élégante réalisée en HTML et CSS. Venez le découvrir !</p>
+                        <button class="btn">Voir le projet</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card project-card border-0 rounded-3 shadow">
+                    <img src="images/envalhtml.png" class="card-img-top" alt="envalhtml">
+                    <div class="card-body">
+                        <h5 class="card-title">Enval</h5>
+                        <p class="card-text">Enval, une solution simple et efficace pour gérer vos données.
+                            Développé en HTML et CSS pour une meilleure performance.</p>
+                        <button class="btn">Voir le projet</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card project-card border-0 rounded-3 shadow">
+                    <img src="images/mandeliev.png" class="card-img-top" alt="mandeliev">
+                    <div class="card-body">
+                        <h5 class="card-title">Mandeliev</h5>
+                        <p class="card-text">Explorez Mandeliev, un projet innovant utilisant HTML et CSS pour offrir 
+                            une expérience utilisateur exceptionnelle. Idéal pour les professionnels de la science !</p>
+                        <button class="btn ">Voir le projet</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card project-card border-0 rounded-3 shadow">
+                    <img src="images/porttttfolio.png" class="card-img-top" alt="portfolio">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio</h5>
+                        <p class="card-text">Un autre exemple de portfolio moderne,
+                            conçu pour mettre en avant vos travaux avec style et simplicité grâce à HTML et CSS.</p>
+                        <button class="btn">Voir le projet</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card project-card border-0 rounded-3 shadow">
+                    <img src="images/budgettt.png" class="card-img-top" alt="budget">
+                    <div class="card-body">
+                        <h5 class="card-title">Budget</h5>
+                        <p class="card-text">Gardez vos finances sous contrôle avec notre Budget App,
+                            créée avec HTML, CSS et JavaScript. Une solution intuitive pour la gestion de votre budget.</p>
+                        <button class="btn ">Voir le projet</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card project-card border-0 rounded-3 shadow">
+                    <img src="images/calculatrice.png" class="card-img-top" alt="calculatrice">
+                    <div class="card-body">
+                        <h5 class="card-title">calculatrice</h5>
+                        <p class="card-text">Une calculatrice en ligne pratique et facile à utiliser, 
+                            développée en HTML, CSS et JavaScript. Parfaite pour des calculs rapides !</p>
+                        <button class="btn ">Voir le projet</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card project-card border-0 rounded-3 shadow">
+                    <img src="images/generateur.png" class="card-img-top" alt="generateur">
+                    <div class="card-body">
+                        <h5 class="card-title">Generateur</h5>
+                        <p class="card-text">Besoin de générer des contenus automatiquement ?
+                            Essayez notre Générateur, un outil puissant réalisé avec HTML, CSS et JavaScript.</p>
+                        <button class="btn">Voir le projet</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card project-card border-0 rounded-3 shadow">
+                    <img src="images/cardsopp.png" class="card-img-top" alt="Shopping-Card">
+                    <div class="card-body">
+                        <h5 class="card-title">Shopping-Card</h5>
+                        <p class="card-text">Transformez vos achats en ligne avec notre Shopping-Card. 
+                            Développée en HTML, CSS et JavaScript pour une expérience utilisateur fluide et agréable.</p>
+                        <button class="btn">Voir le projet</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card project-card border-0 rounded-3 shadow">
+                    <img src="images/Design sans titre.png" class="card-img-top" alt="Enval">
+                    <div class="card-body">
+                        <h5 class="card-title">Enval</h5>
+                        <p class="card-text">Découvrez Enval Laboratoire, une plateforme dédiée 
+                            aux chercheurs et scientifiques. Conçue avec HTML, CSS et JavaScript pour une utilisation optimale.</p>
+                        <button class="btn ">Voir le projet</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card project-card border-0 rounded-3 shadow">
+                    <img src="images/todolist.png" class="card-img-top" alt="todolist">
+                    <div class="card-body">
+                        <h5 class="card-title">Todolist</h5>
+                        <p class="card-text">Organisez vos tâches efficacement avec notre Todo-list interactive, 
+                            construite avec HTML, CSS et JavaScript. Parfaite pour rester productif au quotidien./p>
+                        <button class="btn">Voir le projet</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card project-card border-0 rounded-3 shadow">
+                    <img src="images/horloge.PNG"" class="card-img-top" alt="horloge">
+                    <div class="card-body">
+                        <h5 class="card-title">Horloge</h5>
+                        <p class="card-text">Une horloge numérique élégante et précise,
+                            développée en HTML, CSS et JavaScript. Ajoutez une touche de modernité à votre bureau !/p>
+                        <button class="btn ">Voir le projet</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container contactContent">
+            <h2 class="text-center">Contactez-nous</h2>
+            <div class="row mt-4">
+                <div class="col-lg-6 mb-4">
+                    <div style="max-width: 100%;overflow: hidden;">
+                        <div id="embedmap-canvas" style="height: 300px; width: 100%;">
+                            <iframe style="height: 100%; width: 100%;border: 0;" frameborder="0"
+                                src="https://www.google.com/maps/embed/v1/place?q=Niamey,+Niger&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nom">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Sujet">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Détails du projet"></textarea>
+                        </div>
+                        <button type="submit" class="btn  w-100">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container-fluid text-center">
+            <p>&copy; 2024 Fabuleux-Entreprise. Tous droits réservés.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.threads.com" target="_blank"><i class="fab fa-threads"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-c/6nv/ZtMHBH3d0qe0UoNPzSNZt3WCTy61qcDa+IlOJDeHC65D3RIJURD3uN6Eg3" crossorigin="anonymous"></script>
 </body>
+
 </html>
