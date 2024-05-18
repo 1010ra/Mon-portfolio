@@ -1,8 +1,8 @@
          body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            background-color: #f9f4f7;
-            color: #333;
+            background-color: #c0b3bb;
+            color: #3a3939;
         }
 
         .navbar {
@@ -11,6 +11,7 @@
 
         .navbar h1 {
             color: #fff;
+            font-size: 1.5rem;
         }
 
         .navbar .nav-link {
@@ -34,7 +35,23 @@
 
         .hero_desc {
             font-size: 1.5rem;
+            
         }
+
+
+        #pp{
+            animation: 3s linear 1s infinite alternate slidein;
+        }
+
+        @keyframes slidein {
+        from {
+            transform: translateX(-10%);
+        }
+        to {
+            transform: translateX(0);
+        }
+}
+
 
         section {
             padding: 60px 0;
@@ -84,7 +101,7 @@
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-15px);
 }
 
 /* Styles pour les boutons */
