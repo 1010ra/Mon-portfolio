@@ -1,7 +1,7 @@
          body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            background-color: #f4f4f9;
+            background-color: #f9f4f7;
             color: #333;
         }
 
@@ -117,8 +117,9 @@
 
 
 
-      .btn{
+      .btn {
         background-color: #a16bb6;
+        
       }
 
         footer {
