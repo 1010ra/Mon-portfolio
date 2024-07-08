@@ -22,6 +22,8 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     const sujet = document.getElementById('inputSujet').value;
     const details = document.querySelector('textarea').value;
 
+
+
     const templateParams = {
         name: nom,
         email: email,
@@ -29,15 +31,27 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         details: details
     };
 
+
+
     emailjs.send('service_ylwkkjr', 'template_tjbvmwr', templateParams)
         .then(function(response) {
             console.log('SUCCESS!', response.status, response.text);
             alert('Merci! Votre message a été envoyé.');
+            
         }, function(error) {
             console.log('FAILED...', error);
             alert('Erreur! Votre message n\'a pas pu être envoyé.');
         });
+        vider ();
+
 });
+function vider (){
+
+  document.getElementById('inputNom').value ="";
+  document.getElementById('inputMail').value ="";
+  document.getElementById('inputSujet').value ="";
+  document.querySelector('textarea').value ="";
+}
 
     
 
