@@ -1,8 +1,9 @@
          body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
-           
-            background: linear-gradient(#F2D4D6,white,#E1B0AC);
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(#F2D4D6,white,#d39c97);
             color: #213F99;
         }
 
@@ -10,11 +11,19 @@
             background-color: #E1B0AC;
         }
 
-        .navbar h1 {
-            color:#213F99;
-            font-size: 2rem;
-        }
+        
+       .acheUn{
+        font-size: 24px;
+       }
 
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: bold;
+            color: #213F99;
+            text-transform: uppercase;
+        }
+        h2{
+            font-size: 32px;
+        }
         .navbar .nav-link {
             color: #213F99;
             font-size: 1.5rem;
@@ -22,7 +31,9 @@
         .navbar .nav-link:hover {
            color: white;
         }
-
+        a:hover {
+            color: #dbe1e7;
+        }
         .bgimage {
             background: url('images/fond-ecran-hd-fluide-ondule-rose-futuriste_1000823-13779.avif') no-repeat center center/cover;
             height: 100vh;
@@ -33,20 +44,25 @@
             text-align: center;
         }
 
+        .hero-text {
+            margin-top: 150px;
+        }
+        
         .hero_title {
-            font-size: 3rem;
-            margin-bottom: 1rem;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
         }
-
+        
         .hero_desc {
-            font-size: 1.5rem;
-            
+            font-size: 2rem;
         }
-
 
         #pp{
-            animation: 0s linear 0s infinite alternate slidein;
+            animation: 2s linear 1s infinite alternate slidein;
         }
+
+       
+       
 
         @keyframes slidein {
         from {
@@ -56,11 +72,13 @@
             transform: translateX(2);
         }
 }
-    .paragraphhe{
-        color: #213F99;
-        font-size: 2rem;
-       
-    }
+.paragraphhe {
+    color: #213F99;
+    font-size: 24px;
+    line-height: 1.7;
+    margin-top: 10px;
+}
+   
    
 
 
@@ -70,29 +88,33 @@
             
         }
 
-        h2 {
-            margin-bottom: 40px;
-            font-size: 2.5rem;
-            text-transform: uppercase;
-            
-        }
+       
 
-
-      
         .services .card {
             border: none;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
             transition: transform 1.10s;
         }
-
+        
         .services .card:hover {
             transform: translateY(-10px);
         }
-
+        
+        .services .card-img-top {
+            width: 100px;
+            height: 130px;
+            margin-top: 10px;
+            margin: auto;
+        }
+        
+        .services .card h3 {
+            font-size: 1.25rem;
+            margin-top: 1rem;
+        }
+        
         .card{
-          background-color: #F8F8F9;
-          gap: 3%;
+          background-color: white;
         }
         .card img {
             border-top-left-radius: 10px;
@@ -114,6 +136,25 @@
             font-size:-2px;
         }
 
+        #contact {
+            padding: 60px 0;
+            background-color: #fff;
+            text-align: center;
+        }
+        
+        .contactContent {
+            max-width: 900px;
+            margin: auto;
+        }
+        
+        form .form-control {
+            border-radius: 0.25rem;
+        }
+        
+        form button {
+            margin-top: 1rem;
+            border-radius: 0.25rem;
+        }
 
 
          /* Styles pour les cartes de projet */
@@ -174,21 +215,23 @@
         
     }
 
+  
+    
+    .social-icons a {
+        color:#213F99;
+        margin: 0 10px;
+        transition: color 0.3s;
+    }
+    
+    .social-icons a:hover {
+        color: #ddd;
+    }
         footer {
-            background-color: #E1B0AC;
             color: #213F99;
             padding: 20px 0;
             text-align: center;
         }
         
-        footer .social-icons a {
-            color:#213F99;
-            margin: 0 10px;
-            transition: color 0.3s;
-            
-        }
+       
 
-        footer .social-icons a:hover {
-            color: #ddd;
-        }
-   
+       

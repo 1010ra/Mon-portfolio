@@ -20,3 +20,5 @@ let animations = ['rejection'];
                 console.error('Element not found for id:', animations[i]);
             }
         }
+
+        
